@@ -1,0 +1,23 @@
+{
+  "name": "igens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /IGENS/"
+  },
+  "author": "Chornei",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^ç2.9.3",
+    "parcel": "^2.9.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  }
+}
