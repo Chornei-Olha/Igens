@@ -1,18 +1,16 @@
 {
   "name": "igens",
   "version": "1.0.0",
-  "description": "",
   "homepage": "https://github.com/Chornei-Olha/Igens",
-
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/index.html --public-url /Igens/"
+    "start": "parcel src/*.html"
   },
   "author": "Chornei",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.49.0",
     "parcel-bundler": "^1.12.5",
+    "posthtml-attrs-sorter": "^1.1.0",
     "prettier": "^3.0.3"
   },
   "dependencies": {
@@ -20,5 +18,7 @@
     "parcel": "^2.9.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
-  }
+  },
+  "main": ".eslintrc.js",
+  "description": ""
 }

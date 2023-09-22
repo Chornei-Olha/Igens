@@ -1,10 +1,7 @@
 {
-  "extends": [
-    "@parcel/config-default"
-  ],
-  "reporters": [
-    "...",
-    "parcel-reporter-clean-dist"
-  ]
+  "extends": "@parcel/config-default",
+  "entryFiles": "src/index.html",
+  "outputDirectory": "./dist",
+  "target": "browser",
+  "sourceMaps": true
 }
-
