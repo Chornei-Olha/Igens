@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "homepage": "https://github.com/Chornei-Olha/Igens",
   "scripts": {
-    "start": "parcel src/*.html"
+    "start": "parcel src/*.html",
+    "about_us": "parcel src/pages/about_us.html",
+    "contact_us": "parcel src/pages/contact_us.html",
+    "home": "parcel src/pages/home.html",
+    "service_detail": "parcel src/pages/service_detail.html",
+    "services": "parcel src/pages/services.html"
   },
   "author": "Chornei",
   "license": "ISC",
