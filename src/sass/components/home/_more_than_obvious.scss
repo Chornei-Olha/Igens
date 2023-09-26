@@ -1,3 +1,17 @@
-.more-button {
-    background-color: red;
+.sidebar {
+    width: 250px; /* Ширина сайдбара */
+    height: 100%; /* Высота сайдбара (по высоте всего окна) */
+    background-color: #333; /* Цвет фона сайдбара */
+    position: fixed; /* Зафиксируем сайдбар на месте */
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Если содержимое сайдбара больше его высоты, появится скролл */
+    padding: 20px;
+    color: #fff; /* Цвет текста */
+}
+
+/* Стили для ссылок в сайдбаре */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
 }
