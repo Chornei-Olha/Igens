@@ -3,5 +3,12 @@
   "entryFiles": "src/index.html",
   "outputDirectory": "./dist",
   "target": "browser",
-  "sourceMaps": true
+  "sourceMaps": true,
+
+  "reporters": ["...", "parcel-reporter-clean-dist"],
+  "transforms": {
+    "image": {
+      "publicURL": "./images"
+    }
+  }
 }
