@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/Chornei-Olha/Igens",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel ../index.html",
     "home": "parcel src/pages/home.html",
     "about_us": "parcel src/pages/about_us.html",
     "contact_us": "parcel src/pages/contact_us.html",
