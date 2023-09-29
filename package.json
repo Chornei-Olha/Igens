@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@parcel/transformer-sass": "^2.9.3",
+    "modern-normalize": "^2.0.0",
     "parcel": "^2.9.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"

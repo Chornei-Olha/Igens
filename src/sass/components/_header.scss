@@ -1,0 +1,34 @@
+.header__logo {
+  height: 2.1875rem;
+  padding-top: 3.31rem;
+}
+
+.header__container {
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.header__logo-img {
+    color: red;
+}
+
+.header__button {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: inline-flex;
+  padding: 0.625rem 2.5rem;
+  align-items: center;
+  gap: 0.625rem;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%;
+  text-transform: capitalize;
+}
+.header__button:hover {
+  border-color: #646cff;
+  cursor: pointer;
+
+}
