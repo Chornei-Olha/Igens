@@ -43,6 +43,7 @@ h1 {
 }
 
 .logo {
+  border-color: red;
   height: 6em;
   padding: 1.5em;
   will-change: filter;
