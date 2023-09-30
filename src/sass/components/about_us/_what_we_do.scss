@@ -1,0 +1,96 @@
+.what__container {
+  padding-top: 3.5rem;
+  background: #0d0f16;
+}
+
+.what {
+  display: flex;
+}
+
+.what_img {
+  width: 40.3125rem;
+  height: 49.5rem;
+  margin-top: 3.5rem;
+}
+
+.what__text {
+    margin-top: 7.5rem;
+    margin-left: 9.19rem;
+}
+
+.what__polygon {
+}
+
+.what__text-chapter {
+  color: #ff455b;
+  font-family: Mulish;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+}
+
+.what__text-title {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+  text-transform: capitalize;
+}
+
+.what__text-first {
+  color: #989cac;
+  font-family: Mulish;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.what__text-second {
+  color: #989cac;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.what__text-third {
+  color: #ff455b;
+  font-family: Mulish;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.9rem;
+  text-transform: capitalize;
+}
+
+.what__text-fourth {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+}
+
+.what__list-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6.63rem;
+  }
+  
+  .what__item-data {
+    display: flex;
+    padding: 10px;
+    // border: 1px solid #ccc;
+    text-align: center;
+    justify-content: center;
+  }
