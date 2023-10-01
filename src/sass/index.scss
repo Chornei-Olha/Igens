@@ -1,9 +1,11 @@
 @import './base/container';
+@import './base/general';
 @import './components/home/more_than_obvious';
-@import './components/home/_our_services.html';
+@import './components/home/our_services';
 @import './components/sidebar';
 
 @import './components/header';
+@import './components/about_us/title';
 @import './components/about_us/what_we_do';
 @import './components/about_us/digital_experts';
 @import './components/about_us/why_us';

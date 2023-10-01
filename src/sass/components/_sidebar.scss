@@ -1,28 +1,35 @@
 .sidebar {
-    width: 250px;
-    height: 100%;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-y: auto; /* Если содержимое сайдбара больше его высоты, появится скролл */
-    padding: 20px;
-    color: #fff;
+  width: 8.63rem;
+  height: 100%;
+  background-color: #0d0f16;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding: 20px;
+  color: #fff;
 }
 
 .sidebar__list {
-    padding: 0;
-    list-style-type: none;
-
+  padding: 15rem 0 0 0;
+  
 }
 
 .sidebar__item {
-    margin-bottom: 1.5rem;
-
+  margin-bottom: 1.5rem;
+  list-style-type: none;
 }
 
 .sidebar__link {
-    text-decoration: none;
-    color: #989CAC;
+  text-decoration: none;
+  color: #989cac;
+  text-decoration: none;
+}
 
+.sidebar__vertical-line {
+  width: 0.0625rem;
+  height: 0.625rem;
+  background-color: #fff;
+  margin: 0.94rem 0;
+  opacity: 0.2;
 }
