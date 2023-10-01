@@ -1,23 +1,50 @@
+.header__container {
+  display: flex;
+  height: 6.62rem;
+  background: #0d0f16;
+  margin-left: 0;
+}
+
 .header__logo {
   height: 2.1875rem;
-  padding-top: 3.31rem;
+  width: 7.5rem;
+  margin-top: 3.31rem;
+  margin-left: 11.25rem;
 }
 
-.header__container {
-  margin-bottom: 3rem;
+.header__contact {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.88rem;
+  margin-right: 5.56rem;
+  margin-left: auto;
 }
 
-.header__logo-img {
-    color: red;
+.header__contact-logo {
+  height: 1.5rem;
+  width: 1.5rem;
+  opacity: 0.5;
+}
+
+.header__contact-phone {
+  text-decoration: none;
+  color: #fff;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin-right: 3.13rem;
 }
 
 .header__button {
   border: 2px solid rgba(255, 255, 255, 0.5);
   display: inline-flex;
   padding: 0.625rem 2.5rem;
+  height: 3.125rem;
   align-items: center;
-  gap: 0.625rem;
   color: #fff;
   text-align: center;
   font-family: Mulish;
@@ -26,9 +53,10 @@
   font-weight: 600;
   line-height: 170%;
   text-transform: capitalize;
+  background-color: inherit;
 }
+
 .header__button:hover {
   border-color: #646cff;
   cursor: pointer;
-
 }
