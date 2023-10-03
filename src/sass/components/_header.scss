@@ -1,7 +1,7 @@
 .header__container {
   display: flex;
   height: 6.62rem;
-  background: #0d0f16;
+  background: $container-color;
   margin-left: 0;
 }
 
@@ -29,13 +29,13 @@
 
 .header__contact-phone {
   text-decoration: none;
-  color: #fff;
+  color: $white-color;
   text-align: right;
   font-family: Mulish;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.8rem;
+  line-height: 1.6;
   margin-right: 3.13rem;
 }
 
@@ -45,18 +45,18 @@
   padding: 0.625rem 2.5rem;
   height: 3.125rem;
   align-items: center;
-  color: #fff;
+  color: $white-color;
   text-align: center;
   font-family: Mulish;
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 170%;
+  line-height: 1.7;
   text-transform: capitalize;
   background-color: inherit;
 }
 
 .header__button:hover {
-  border-color: #646cff;
+  border-color: $main-color;
   cursor: pointer;
 }
