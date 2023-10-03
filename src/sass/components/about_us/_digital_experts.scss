@@ -1,5 +1,7 @@
-.digital__experts {
+.digital__container {
+  position: relative;
 }
+
 .digital__polygon {
   margin-top: 11.5rem;
 }
@@ -9,37 +11,43 @@
 }
 
 .digital__img {
-  display: flex;
+  // display: flex;
   margin-left: 1.25rem;
 }
 
 .digital__img-one {
-  padding-right: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.digital__img-one:last-child {
+  margin-right: 0;
 }
 
 .digital__text-first {
-  color: #0d0f16;
+  color: #0D0F16;
   font-family: Raleway;
   font-size: 14.375rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 14.375rem;
+  line-height: 1;
   text-transform: uppercase;
   opacity: 0.15;
   transform: rotate(-90deg);
-  position: absolute;
-  top: 71.31rem;
+    position: absolute;
+  top: 0;
+  left: 50%;
 }
 
 .digital__text-second {
-    color: #0D0F16;
-font-family: Raleway;
-font-size: 7.5rem;
-font-style: normal;
-font-weight: 900;
-line-height: 7.5rem;
-text-transform: uppercase;
-transform: rotate(-90deg);
-position: absolute;
-top: 101.06rem;
+  color: #0D0F16;
+  font-family: Raleway;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+    position: absolute;
+  top: 30.06rem;
+  left: 50%;
 }
