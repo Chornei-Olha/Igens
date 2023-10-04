@@ -6,6 +6,11 @@
   background-color: black;
 }
 
+.why__container-1 {
+  max-width: 28.5rem;
+  margin-right: 8.06rem;
+}
+
 .why__text-title {
   color: $white-color;
 }
@@ -41,6 +46,31 @@
   margin-bottom: 1.25rem;
 }
 
-.why__icons {
+.why__list-2 {
   column-count: 2;
+  column-gap: 1.88rem;
+}
+.why__list-2:nth-child(odd) {
+  margin-top: -3.13rem;
+}
+
+.why__icon {
+  display: block;
+}
+
+// .why__icon-img {
+//   max-width: 16.375rem;
+// }
+
+.why__icon-text {
+  color: $white-color;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
 }
