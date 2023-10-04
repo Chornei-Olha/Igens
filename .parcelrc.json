@@ -1,5 +1,8 @@
 {
   "extends": "@parcel/config-default",
+  "ports": {
+    "http": 12345
+  }
   "entryFiles": "src/index.html",
   "outputDirectory": "./dist",
   "target": "browser",
