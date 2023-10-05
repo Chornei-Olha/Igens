@@ -7,7 +7,7 @@
 
 .menu-container {
   position: relative;
-  z-index: 100;
+  z-index: 20;
 }
 
 .menu {
@@ -16,8 +16,9 @@
   left: 0rem;
   width: 25rem;
   height: 100vh;
-  background-color: $menu-background-color;
+  background-color: $black-color;
   transition: left 0.3s ease-in-out;
+  display: none;
 }
 
 .menu__list {
@@ -70,6 +71,7 @@
   width: 7.5rem;
   margin-top: 3.31rem;
   margin-left: 11.25rem;
+  z-index: 16;
 }
 
 .header__logo:hover {

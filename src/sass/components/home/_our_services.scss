@@ -1,0 +1,36 @@
+.our__container {
+  background-color: $container-color;
+}
+
+.our__text {
+}
+
+.our__text-title {
+  color: $white-color;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.our__text-first {
+  color: $primary-text-color;
+  font-family: 'Mulish';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.our__button {
+  color: $white-color;
+  font-family: 'Mulish';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.6;
+  letter-spacing: 0.04375rem;
+  text-transform: uppercase;
+}
