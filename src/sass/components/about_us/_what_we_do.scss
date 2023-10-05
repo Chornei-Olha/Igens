@@ -1,12 +1,11 @@
 .what__container {
   padding-top: 3.5rem;
-  background: #0d0f16;
+  background-color: $container-color;
   display: flex;
 }
 
-.what_img {
-  max-width: 40rem;
-  margin-right: 9.19rem;
+.what__img {
+  margin-left: 8.63rem;
 }
 
 .what__text {
@@ -21,7 +20,7 @@
 
 .what__text-first {
   color: $primary-text-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -31,7 +30,7 @@
 
 .what__text-second {
   color: $primary-text-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -55,7 +54,7 @@
 
 .what__text-third {
   color: $main-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 3rem;
   font-style: normal;
   font-weight: 500;
@@ -67,7 +66,7 @@
 
 .what__text-fourth {
   color: $white-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;

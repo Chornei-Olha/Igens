@@ -3,7 +3,7 @@
   padding-top: 14.81rem;
   padding-left: 15.81rem;
   padding-bottom: 9.38rem;
-  background-color: black;
+  background-color: $container-color;
 }
 
 .why__container-1 {
@@ -17,7 +17,7 @@
 
 .why__title {
   color: $primary-text-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -37,7 +37,7 @@
 
 .why__item-text {
   color: $primary-text-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@
 .why__icon-text {
   color: $white-color;
   text-align: center;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;

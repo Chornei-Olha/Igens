@@ -23,12 +23,15 @@
 .sidebar__social-link {
   text-decoration: none;
   color: $white-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: 1.6;
   opacity: 0.5;
+}
+.sidebar__social-link:hover {
+ color: $main-color;
 }
 
 .sidebar__vertical-line {
