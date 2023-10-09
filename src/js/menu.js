@@ -2,16 +2,9 @@ const menu = document.querySelector('.menu');
 const toggleMenu = document.querySelector('.toggle-menu');
 
 toggleMenu.addEventListener('click', () => {
-    if (menu.style.left === '-35rem') {
-        menu.style.left = '0';
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
     } else {
-        menu.style.left = '-35rem';
+        menu.style.display = 'block';
     }
 });
-
-const closeButton = document.querySelector('.close-button');
-
-function closeMenu() {
-  menu.style.transform = 'translateX(-130%)';
-}
-closeButton.addEventListener('click', closeMenu);

@@ -6,8 +6,9 @@
   display: flex;
   padding-top: 5.81rem;
   margin-left: 8rem;
-  justify-content: center;
   align-items: center;
+  margin-left: 24.38rem;
+
 }
 
 .footer__logo {
@@ -17,14 +18,17 @@
   margin-right: 28.5rem;
 }
 
-.footer__list {
-  display: flex;
-  margin-left: auto;
+.footer__logo:hover {
+  box-shadow: 3px 3px 5px 0px $main-color;
 }
 
-.footer__item {
+.footer__list {
+  display: flex;
+}
+
+.footer__item-link {
   color: $white-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;
@@ -32,11 +36,11 @@
   letter-spacing: 0.075rem;
   text-transform: uppercase;
   opacity: 0.5;
+  text-decoration: none;
 }
 
-.footer__item-link:visited {
-  color: $primary-text-color;
-  text-decoration: none;
+.footer__item-link:hover {
+  color: $main-color;
 }
 
 .horizontal-line {
@@ -46,11 +50,13 @@
   margin-top: 2.5rem;
   margin-bottom: 3.31rem;
   opacity: 0.05;
+  margin-left: 24.38rem;
 }
 
 .footer__menu {
   display: flex;
-  margin-left: 8rem;
+  margin-left: 24.38rem;
+  
 }
 
 .footer__menu-social {
@@ -60,12 +66,16 @@
 .footer__link {
   text-decoration: none;
   color: $white-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: 1.6;
   opacity: 0.5;
+}
+
+.footer__link:hover {
+  color: $main-color;
 }
 
 .footer__menu-1,
@@ -78,7 +88,7 @@
 
 .footer__menu-title {
   color: $white-color;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
@@ -89,11 +99,16 @@
 
 .footer__menu-text {
   color: $primary-text-color;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
+  text-decoration: none;
+}
+
+.map:hover {
+  color: $main-color;
 }
 
 .footer__horizontal-line {

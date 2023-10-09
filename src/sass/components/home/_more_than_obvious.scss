@@ -1,4 +1,146 @@
-.content {
-    margin-left: 250px; /* Установите такой же левый отступ, как ширина сайдбара */
-    padding: 20px;
+// .content {
+//     margin-left: 250px; /* Установите такой же левый отступ, как ширина сайдбара */
+//     padding: 20px;
+// }
+
+.more__container {
+  background-color: $container-color;
+  display: flex;
+  position: relative;
+}
+
+.more__img {
+  margin-top: -7rem;
+  margin-right: 15.75rem;
+  margin-left: 8.63rem;
+  z-index: 15;
+}
+
+.more__name-1 {
+  position: absolute;
+  color: $container-color;
+  font-family: 'Raleway';
+  font-size: 14.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.25;
+  transform: rotate(-90deg);
+  // position: absolute;
+  // top: 13rem;
+  // right: 0;
+  // margin: 0;
+  // // left: 60%;
+}
+
+.more__name-2 {
+  position: absolute;
+  color: $container-color;
+  font-family: 'Raleway';
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
+.more__name-3 {
+  position: absolute;
+  color: $white-color;
+  text-align: right;
+  font-family: 'Raleway';
+  font-size: 14.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.03;
+  transform: rotate(-90deg);
+}
+
+.more__name-4 {
+  position: absolute;
+  color: $white-color;
+  text-align: right;
+  font-family: 'Raleway';
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
+.more__text {
+  max-width: 28.5rem;
+  margin-top: 13.81rem;
+}
+
+.more__text-general {
+  color: $primary-text-color;
+  font-family: 'Mulish';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 3.75rem;
+}
+
+.more__text-title {
+  color: $white-color;
+}
+
+.more__text-button {
+  color: $white-color;
+  text-align: center;
+  font-family: 'Mulish';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: capitalize;
+  display: inline-flex;
+  padding: 0.75rem 2.5rem;
+  align-items: center;
+  gap: 0.625rem;
+  background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
+  margin-bottom: 12.94rem;
+}
+
+.more__list {
+  display: flex;
+align-items: center;}
+
+.more__item {
+  color: $primary-text-color;
+  font-family: 'Mulish';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.3;
+  margin-left: 0.94rem;
+  margin-right: 0.94rem;
+
+}
+
+.more__item:hover {
+  color: $main-color;
+  font-family: 'Mulish';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.more__horizontal-line {
+  width: 0.625rem;
+  height: 0.0625rem;
+  background-color: $white-color;
+  opacity: 0.2;
 }

@@ -7,7 +7,7 @@
 
 .menu-container {
   position: relative;
-  z-index:100
+  z-index: 20;
 }
 
 .menu {
@@ -16,8 +16,9 @@
   left: 0rem;
   width: 25rem;
   height: 100vh;
-  background-color: $menu-background-color;
+  background-color: $black-color;
   transition: left 0.3s ease-in-out;
+  display: none;
 }
 
 .menu__list {
@@ -33,7 +34,7 @@
   text-decoration: none;
   color: $primary-text-color;
   text-align: center;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -52,14 +53,13 @@
 
 .close-button {
   position: absolute;
-  top: 1.42rem; 
+  top: 1.42rem;
   right: 1.28rem;
   color: $white-color;
   background-color: transparent;
   border: none;
   font-size: 2.5rem;
   cursor: pointer;
-
 }
 
 .close-button:hover {
@@ -70,7 +70,12 @@
   height: 2.1875rem;
   width: 7.5rem;
   margin-top: 3.31rem;
-  margin-left: 2.62rem;
+  margin-left: 11.25rem;
+  z-index: 16;
+}
+
+.header__logo:hover {
+  box-shadow: 3px 3px 5px 0px $main-color;
 }
 
 .header__contact {
@@ -86,18 +91,23 @@
   height: 1.5rem;
   width: 1.5rem;
   opacity: 0.5;
+  margin-right: 0.94rem;
 }
 
 .header__contact-phone {
   text-decoration: none;
   color: $white-color;
   text-align: right;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: 1.6;
   margin-right: 3.13rem;
+}
+
+.header__contact-phone:hover {
+  box-shadow: 3px 3px 5px 0px $main-color;
 }
 
 .header__button {
@@ -108,7 +118,7 @@
   align-items: center;
   color: $white-color;
   text-align: center;
-  font-family: Mulish;
+  font-family: 'Mulish';
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
@@ -118,6 +128,6 @@
 }
 
 .header__button:hover {
-  border-color: $main-color;
+  box-shadow: 3px 3px 5px 0px $main-color;
   cursor: pointer;
 }

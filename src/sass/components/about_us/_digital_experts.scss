@@ -4,16 +4,17 @@
 
 .digital__polygon {
   margin-top: 11.5rem;
+  margin-left: 15.74rem;
 }
 
 .digital__text-title {
-  color: $text-color
+  color: $text-color;
+  margin-left: 15.74rem;
 }
 
 .digital__img {
   display: flex;
-  margin-left: 1.25rem;
-  // margin-right: 16.5rem;
+  margin-left: 9.88rem;
 }
 
 .digital__img-one {
@@ -27,21 +28,24 @@
 
 .digital__text-first {
   color: $container-color;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 14.375rem;
   font-style: normal;
   font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
   opacity: 0.15;
+  transform: rotate(-90deg);
   position: absolute;
-  top: 0;
-  left: 60%;
+  top: 13rem;
+  right: 0;
+  margin: 0;
+  // left: 60%;
 }
 
 .digital__text-second {
   color: $container-color;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 7.5rem;
   font-style: normal;
   font-weight: 900;
@@ -49,6 +53,8 @@
   text-transform: uppercase;
   transform: rotate(-90deg);
   position: absolute;
-  top: 23rem;
-  left: 78%;
+  top: 31rem;
+  right: 9rem;
+  margin: 0;
+  // left: 78%;
 }
